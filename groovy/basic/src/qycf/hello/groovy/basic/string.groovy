@@ -31,3 +31,40 @@ println result
 static String echo(String message) {
     return message
 }
+
+/**
+ * 字符串的方法
+ * StringGroovyMethods
+ * DefaultGroovyMethods
+ * java.lang.String
+ *
+ * */
+def str = "groovy Hello"
+// groovy Hello
+println str.center(8)
+// groovy Hello
+println str.padLeft(8, 'a')
+
+def str2 = 'Hello'
+// 31
+println str.compareTo(str2)
+// 字符编码比较 true
+println str > str2
+
+// g
+println str.getAt(0)
+println str[0]
+// gr
+println str[0..1]
+// groovy
+println str.minus(str2)
+
+// olleH yvoorg
+println str.reverse()
+// Groovy Hello
+println str.capitalize()
+
+println str.isNumber()
+//println str.toInteger()
+
+
