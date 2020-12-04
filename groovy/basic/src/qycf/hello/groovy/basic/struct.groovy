@@ -47,7 +47,7 @@ println(sum)
 
 // 对map循环(不需要迭代器)
 
-for (i in ['lili': 1, 'luck': 2, 'peter': 3]) {
+for (i in ['li': 1, 'luck': 2, 'peter': 3]) {
     sum += i.value
 }
 
