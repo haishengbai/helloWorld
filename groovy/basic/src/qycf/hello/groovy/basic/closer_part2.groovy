@@ -1,5 +1,6 @@
 package qycf.hello.groovy.basic
 
+
 int x = fab(5)
 println x
 
@@ -38,3 +39,4 @@ int cal(int num) {
  * 通过查看源码来使用闭包
  *
  * */
+
