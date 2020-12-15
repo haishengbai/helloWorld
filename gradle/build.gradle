@@ -1,3 +1,5 @@
+import com.sun.jmx.mbeanserver.Repository
+
 plugins {
     id 'java'
 }
@@ -59,3 +61,184 @@ def getProjects() {
         }
     }
 }
+
+project('sub') { Project project ->
+//    apply plugin: 'com.android.application'
+    group 'com.qycf'
+    version '1.0.0-release'
+    dependencies {
+
+    }
+}
+
+// 配置当前节点工程及其subProject的所有project
+this.allprojects {
+    group 'com.qycf'
+    version '1.0.0-snapshot'
+}
+
+// 不包括当前节点工程, 只包括它的subProject
+subprojects { Project project ->
+
+}
+
+// 属性相关
+def compileVersion = '1.0.0-snapshot'
+
+ext {
+    compileVersion = '1.0.0-snapshot'
+}
+
+// gradle.properties
+
+/**
+ * file 文件相关api
+ *
+ * */
+println 'the root file path is:' + getRootDir().absolutePath
+println 'the build file path is:' + getBuildDir().absolutePath
+println 'the project file path is:' + getProjectDir().absolutePath
+
+//copy {
+//    from file('')
+//    into getRootProject().getBuildDir().path + '/apk/'
+//    rename {}
+//}
+
+// 对文件树进行遍历
+fileTree('build/outputs/apk/') {
+    FileTree fileTree ->
+        fileTree.visit { FileTreeElement element ->
+            println 'the file name is：' + element.getName()
+        }
+}
+
+/**
+ * 其他 api
+ * 1· 依赖相关
+ * 2· 外部命令
+ *
+ * */
+
+//buildscript { ScriptHandler scriptHandler ->
+//
+//    // 配置工程仓库地址
+//    scriptHandler.repositories { RepositoryHandler repositoryHandler ->
+//        repositoryHandler.jcenter()
+//        repositoryHandler.mavenCentral()
+//        repositoryHandler.mavenLocal()
+//        repositoryHandler.ivy {}
+//        repositoryHandler.maven {}
+//    }
+//
+//    // 配置工程gradle的‘插件’依赖地址
+//    scriptHandler.dependencies {
+//        classpath 'com.tencent.tinker-patch-gradle-plugin:1.7.7'
+//    }
+//}
+
+// 为应用程序添加第三方库依赖
+dependencies {
+    compile fileTree(includes: ['*.jar'], dir: 'libs')
+    // exclude 排除依赖
+    // transitive false 传递依赖
+
+    // 只在编译中起作用
+//    provided ? 新版取消了?
+}
+
+// 外部命令执行
+// exec
+task(name: 'apkCopy') {
+    // gradle 执行阶段执行
+    def command = "mv a b"
+    exec {
+        try {
+            executable 'bash'
+            args '-C', command
+        } catch(GradleException gradleException) {
+
+        }
+    }
+}
+
+
+/**
+ * TASK
+ *
+ * */
+
+
+
+// 直接通过task函数去创建(推荐)
+task helloTask(group: 'imooc', description: 'task study') {
+    println 'i am helloTask'
+    doFirst {
+        println 'the task group is:' + group
+    }
+    doFirst {
+    }
+}
+helloTask.doFirst {
+    println 'the task description is :' + description
+}
+
+// 通过TaskContainer去创建task
+this.tasks.create(name: 'helloTask2') {
+    setGroup('imooc')
+    setDescription('task study')
+    println 'i am helloTask2'
+}
+
+// 计算build计算执行时长
+def startBuildTIme, endBuildTime
+
+// 配置阶段全部执行完回调, 保证要找的task已经配置完毕
+//this.afterEvaluate {
+//    def preBuildTask = project.tasks.getByName('preBuild')
+//    preBuildTask.doFirst {
+//        startBuildTIme = System.currentTimeMillis()
+//        println 'the start time is:' + startBuildTIme
+//    }
+//    def buildTask = project.tasks.getByName('build')
+//    buildTask.doLast {
+//        endBuildTime = System.currentTimeMillis()
+//        println "the build time is: ${endBuildTime - startBuildTIme}"
+//    }
+//}
+
+
+/**
+ *
+ * task依赖讲解
+ * */
+task taskX {
+    println 'taskX'
+    doFirst {
+        println 'taskX'
+    }
+}
+
+task taskY {
+    println 'taskY'
+    doLast {
+        println 'taskY'
+    }
+}
+
+// ?依赖如何设置？
+task taskZ {
+    dependsOn this.tasks.findAll {
+        task -> return task.name.startsWith('lib')
+    }
+    doLast {
+        println 'taskZ'
+    }
+}
+
+task lib1 {println 'lib1'}
+task lib2 {println 'lib2'}
+task lib3 {println 'lib3'}
+
+
+
