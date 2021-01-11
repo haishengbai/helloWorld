@@ -1,0 +1,5 @@
+rootProject.name = 'gradle'
+
+println '初始化阶段开始'
+include 'sub'
+
