@@ -2,7 +2,8 @@ package qycf.hello.world.java.eight.collections;// collections/PetMap.java
 // (c)2020 MindView LLC: see Copyright.txt
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
-import typeinfo.pets.*;
+import qycf.hello.world.java.eight.typeinfo.pets.*;
+
 import java.util.*;
 
 public class PetMap {

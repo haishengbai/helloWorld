@@ -3,8 +3,9 @@ package qycf.hello.world.java.eight.enums;// enums/PostOffice.java
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Modeling a post office
+import qycf.hello.world.java.eight.onjava.Enums;
+
 import java.util.*;
-import onjava.*;
 
 class Mail {
   // The NO's reduce probability of random selection:

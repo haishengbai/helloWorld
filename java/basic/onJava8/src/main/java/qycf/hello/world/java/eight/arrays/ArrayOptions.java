@@ -4,8 +4,8 @@ package qycf.hello.world.java.eight.arrays;// arrays/ArrayOptions.java
 // Visit http://OnJava8.com for more book information.
 // Initialization & re-assignment of arrays
 import java.util.*;
-import static onjava.ArrayShow.*;
-import static onjava.ArrayShow.show;
+
+import static qycf.hello.world.java.eight.onjava.ArrayShow.show;
 
 public class ArrayOptions {
   public static void main(String[] args) {

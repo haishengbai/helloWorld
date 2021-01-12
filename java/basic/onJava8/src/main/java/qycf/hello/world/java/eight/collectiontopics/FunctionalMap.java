@@ -6,7 +6,8 @@ package qycf.hello.world.java.eight.collectiontopics;// collectiontopics/Functio
 import java.util.*;
 import java.util.stream.*;
 import java.util.concurrent.*;
-import static onjava.HTMLColors.*;
+
+import static qycf.hello.world.java.eight.onjava.HTMLColors.MAP;
 
 public class FunctionalMap {
   public static void main(String[] args) {

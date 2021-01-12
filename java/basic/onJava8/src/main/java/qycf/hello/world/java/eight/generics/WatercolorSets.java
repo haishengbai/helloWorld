@@ -2,10 +2,15 @@ package qycf.hello.world.java.eight.generics;// generics/WatercolorSets.java
 // (c)2020 MindView LLC: see Copyright.txt
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
-import generics.watercolors.*;
+import qycf.hello.world.java.eight.generics.watercolors.Watercolors;
+
 import java.util.*;
-import static onjava.Sets.*;
-import static generics.watercolors.Watercolors.*;
+
+import static qycf.hello.world.java.eight.generics.watercolors.Watercolors.*;
+import static qycf.hello.world.java.eight.onjava.Sets.complement;
+import static qycf.hello.world.java.eight.onjava.Sets.difference;
+import static qycf.hello.world.java.eight.onjava.Sets.intersection;
+import static qycf.hello.world.java.eight.onjava.Sets.union;
 
 public class WatercolorSets {
   public static void main(String[] args) {

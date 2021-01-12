@@ -3,10 +3,11 @@ package qycf.hello.world.java.eight.typeinfo;// typeinfo/PetCount3.java
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Using isInstance()
+import qycf.hello.world.java.eight.onjava.Pair;
+import qycf.hello.world.java.eight.typeinfo.pets.*;
+
 import java.util.*;
 import java.util.stream.*;
-import onjava.*;
-import typeinfo.pets.*;
 
 public class PetCount3 {
   static class Counter extends

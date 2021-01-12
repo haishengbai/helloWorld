@@ -3,8 +3,9 @@ package qycf.hello.world.java.eight.collectiontopics;// collectiontopics/ListOps
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Things you can do with Lists
+import qycf.hello.world.java.eight.onjava.HTMLColors;
+
 import java.util.*;
-import onjava.HTMLColors;
 
 public class ListOps {
   // Create a short list for testing:

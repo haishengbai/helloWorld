@@ -5,7 +5,8 @@
 // Switching one enum on another
 // {java enums.RoShamBo2}
 package qycf.hello.world.java.eight.enums;
-import static enums.Outcome.*;
+
+import static qycf.hello.world.java.eight.enums.Outcome.*;
 
 public enum RoShamBo2 implements Competitor<RoShamBo2> {
   PAPER(DRAW, LOSE, WIN),

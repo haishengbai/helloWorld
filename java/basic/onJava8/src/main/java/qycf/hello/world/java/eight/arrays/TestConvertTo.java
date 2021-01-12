@@ -2,10 +2,13 @@ package qycf.hello.world.java.eight.arrays;// arrays/TestConvertTo.java
 // (c)2020 MindView LLC: see Copyright.txt
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
+import qycf.hello.world.java.eight.onjava.Rand;
+
 import java.util.*;
-import onjava.*;
-import static onjava.ArrayShow.*;
-import static onjava.ConvertTo.*;
+
+import static qycf.hello.world.java.eight.onjava.ArrayShow.show;
+import static qycf.hello.world.java.eight.onjava.ConvertTo.boxed;
+import static qycf.hello.world.java.eight.onjava.ConvertTo.primitive;
 
 public class TestConvertTo {
   static final int SIZE = 6;

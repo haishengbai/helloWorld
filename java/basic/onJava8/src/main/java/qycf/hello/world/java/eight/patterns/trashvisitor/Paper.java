@@ -4,9 +4,8 @@
 // Visit http://OnJava8.com for more book information.
 // Paper for the visitor pattern
 package qycf.hello.world.java.eight.patterns.trashvisitor;
-import patterns.trash.*;
 
-public class Paper extends patterns.trash.Paper
+public class Paper extends qycf.hello.world.java.eight.patterns.trash.Paper
     implements Visitable {
   public Paper(double wt) { super(wt); }
   @Override

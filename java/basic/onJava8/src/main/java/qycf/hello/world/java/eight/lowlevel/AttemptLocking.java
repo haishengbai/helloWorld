@@ -4,9 +4,10 @@ package qycf.hello.world.java.eight.lowlevel;// lowlevel/AttemptLocking.java
 // Visit http://OnJava8.com for more book information.
 // Locks in the concurrent library allow you
 // to give up on trying to acquire a lock
+import qycf.hello.world.java.eight.onjava.Nap;
+
 import java.util.concurrent.*;
 import java.util.concurrent.locks.*;
-import onjava.Nap;
 
 public class AttemptLocking {
   private ReentrantLock lock = new ReentrantLock();

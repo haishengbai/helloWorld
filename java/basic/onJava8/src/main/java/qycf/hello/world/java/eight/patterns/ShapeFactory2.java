@@ -4,8 +4,12 @@ package qycf.hello.world.java.eight.patterns;// patterns/ShapeFactory2.java
 // Visit http://OnJava8.com for more book information.
 import java.util.*;
 import java.lang.reflect.*;
-import java.util.stream.*;
-import patterns.shapes.*;
+
+
+import qycf.hello.world.java.eight.patterns.shapes.BadShapeCreation;
+import qycf.hello.world.java.eight.patterns.shapes.FactoryMethod;
+import qycf.hello.world.java.eight.patterns.shapes.FactoryTest;
+import qycf.hello.world.java.eight.patterns.shapes.Shape;
 
 public class ShapeFactory2 implements FactoryMethod {
   Map<String, Constructor> factories =

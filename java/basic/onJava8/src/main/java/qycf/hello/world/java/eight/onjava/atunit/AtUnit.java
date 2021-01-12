@@ -5,12 +5,13 @@
 // An annotation-based unit-test framework
 // {java onjava.atunit.AtUnit}
 package qycf.hello.world.java.eight.onjava.atunit;
+import qycf.hello.world.java.eight.onjava.ProcessFiles;
+
 import java.lang.reflect.*;
 import java.io.*;
 import java.util.*;
 import java.nio.file.*;
 import java.util.stream.*;
-import onjava.*;
 
 public class AtUnit implements ProcessFiles.Strategy {
   static Class<?> testClass;

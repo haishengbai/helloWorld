@@ -4,7 +4,8 @@
 // Visit http://OnJava8.com for more book information.
 // {java interfaces.music5.Music5}
 package qycf.hello.world.java.eight.interfaces.music5;
-import polymorphism.music.Note;
+
+import qycf.hello.world.java.eight.polymorphism.music.Note;
 
 interface Instrument {
   // Compile-time constant:

@@ -4,8 +4,8 @@ package qycf.hello.world.java.eight.arrays;// arrays/ComparatorTest.java
 // Visit http://OnJava8.com for more book information.
 // Implementing a Comparator for a class
 import java.util.*;
-import onjava.*;
-import static onjava.ArrayShow.*;
+
+import static qycf.hello.world.java.eight.onjava.ArrayShow.show;
 
 class CompTypeComparator
 implements Comparator<CompType> {

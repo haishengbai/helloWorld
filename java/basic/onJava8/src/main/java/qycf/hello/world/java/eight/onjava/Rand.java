@@ -6,7 +6,8 @@
 package qycf.hello.world.java.eight.onjava;
 import java.util.*;
 import java.util.function.*;
-import static onjava.ConvertTo.*;
+
+import static qycf.hello.world.java.eight.onjava.ConvertTo.primitive;
 
 public interface Rand {
   int MOD = 10_000;

@@ -4,9 +4,10 @@ package qycf.hello.world.java.eight.concurrent;// concurrent/DiningPhilosophers.
 // Visit http://OnJava8.com for more book information.
 // Hidden deadlock
 // {ExcludeFromGradle} Gradle has trouble
+import qycf.hello.world.java.eight.onjava.Nap;
+
 import java.util.*;
 import java.util.concurrent.*;
-import onjava.Nap;
 
 public class DiningPhilosophers {
   private StickHolder[] sticks;

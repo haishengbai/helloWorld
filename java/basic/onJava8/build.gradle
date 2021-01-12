@@ -25,8 +25,9 @@ dependencies {
     compileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     annotationProcessor 'org.projectlombok:lombok'
-    testImplementation(platform('org.junit:junit-bom:5.7.0'))
-    testImplementation('org.junit.jupiter:junit-jupiter')
+    compile(platform('org.junit:junit-bom:5.7.0'))
+    compile('org.junit.jupiter:junit-jupiter')
+    compile group: 'com.io7m.xom', name: 'xom', version: '1.2.10'
 }
 
 test {

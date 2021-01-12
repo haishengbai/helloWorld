@@ -2,7 +2,8 @@ package qycf.hello.world.java.eight.annotations;// annotations/DemoProcessFiles.
 // (c)2020 MindView LLC: see Copyright.txt
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
-import onjava.ProcessFiles;
+
+import qycf.hello.world.java.eight.onjava.ProcessFiles;
 
 public class DemoProcessFiles {
   public static void main(String[] args) {

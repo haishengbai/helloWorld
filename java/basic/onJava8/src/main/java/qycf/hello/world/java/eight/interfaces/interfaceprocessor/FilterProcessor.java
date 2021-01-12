@@ -4,7 +4,8 @@
 // Visit http://OnJava8.com for more book information.
 // {java interfaces.interfaceprocessor.FilterProcessor}
 package qycf.hello.world.java.eight.interfaces.interfaceprocessor;
-import interfaces.filters.*;
+
+import qycf.hello.world.java.eight.interfaces.filters.*;
 
 class FilterAdapter implements Processor {
   Filter filter;

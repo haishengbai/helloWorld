@@ -2,8 +2,9 @@ package qycf.hello.world.java.eight.collectiontopics;// collectiontopics/SetOrde
 // (c)2020 MindView LLC: see Copyright.txt
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
+import qycf.hello.world.java.eight.onjava.HTMLColors;
+
 import java.util.*;
-import onjava.HTMLColors;
 
 public class SetOrder {
   static String[] sets = {

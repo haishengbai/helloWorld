@@ -4,10 +4,9 @@
 // Visit http://OnJava8.com for more book information.
 // Glass for double dispatching
 package qycf.hello.world.java.eight.patterns.doubledispatch;
-import patterns.trash.*;
 import java.util.*;
 
-public class Glass extends patterns.trash.Glass
+public class Glass extends qycf.hello.world.java.eight.patterns.trash.Glass
     implements TypedBinMember {
   public Glass(double wt) { super(wt); }
   @Override

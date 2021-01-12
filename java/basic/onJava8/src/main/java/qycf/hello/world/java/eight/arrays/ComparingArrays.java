@@ -3,8 +3,10 @@ package qycf.hello.world.java.eight.arrays;// arrays/ComparingArrays.java
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Using Arrays.equals()
+import qycf.hello.world.java.eight.onjava.Count;
+import qycf.hello.world.java.eight.onjava.Rand;
+
 import java.util.*;
-import onjava.*;
 
 public class ComparingArrays {
   public static final int SZ = 15;

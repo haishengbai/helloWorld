@@ -3,8 +3,9 @@ package qycf.hello.world.java.eight.collectiontopics;// collectiontopics/Enumera
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Java 1.0/1.1 Vector and Enumeration
+import qycf.hello.world.java.eight.onjava.Countries;
+
 import java.util.*;
-import onjava.*;
 
 public class Enumerations {
   public static void main(String[] args) {

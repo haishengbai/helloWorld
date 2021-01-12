@@ -3,9 +3,10 @@ package qycf.hello.world.java.eight.collectiontopics;// collectiontopics/MapOps.
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Things you can do with Maps
+import qycf.hello.world.java.eight.onjava.CountMap;
+
 import java.util.concurrent.*;
 import java.util.*;
-import onjava.*;
 
 public class MapOps {
   public static

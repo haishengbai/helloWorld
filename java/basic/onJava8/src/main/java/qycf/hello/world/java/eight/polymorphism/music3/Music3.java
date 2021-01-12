@@ -5,7 +5,8 @@
 // An extensible program
 // {java polymorphism.music3.Music3}
 package qycf.hello.world.java.eight.polymorphism.music3;
-import polymorphism.music.Note;
+
+import qycf.hello.world.java.eight.polymorphism.music.Note;
 
 class Instrument {
   void play(Note n) {

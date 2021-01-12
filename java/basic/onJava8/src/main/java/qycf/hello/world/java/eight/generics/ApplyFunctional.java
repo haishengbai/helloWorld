@@ -2,10 +2,11 @@ package qycf.hello.world.java.eight.generics;// generics/ApplyFunctional.java
 // (c)2020 MindView LLC: see Copyright.txt
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
+import qycf.hello.world.java.eight.onjava.Suppliers;
+
 import java.util.*;
 import java.util.stream.*;
 import java.util.function.*;
-import onjava.*;
 
 public class ApplyFunctional {
   public static void main(String[] args) {

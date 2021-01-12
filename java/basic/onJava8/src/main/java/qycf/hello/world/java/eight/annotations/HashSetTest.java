@@ -5,9 +5,9 @@
 // {java onjava.atunit.AtUnit
 // build/classes/java/main/annotations/HashSetTest.class}
 package qycf.hello.world.java.eight.annotations;
+import qycf.hello.world.java.eight.onjava.atunit.Test;
+
 import java.util.*;
-import onjava.atunit.*;
-import onjava.*;
 
 public class HashSetTest {
   HashSet<String> testObject = new HashSet<>();

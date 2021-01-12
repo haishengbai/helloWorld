@@ -3,7 +3,9 @@ package qycf.hello.world.java.eight.polymorphism;// polymorphism/Shapes.java
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Polymorphism in Java
-import polymorphism.shape.*;
+
+import qycf.hello.world.java.eight.polymorphism.shape.RandomShapes;
+import qycf.hello.world.java.eight.polymorphism.shape.Shape;
 
 public class Shapes {
   public static void main(String[] args) {

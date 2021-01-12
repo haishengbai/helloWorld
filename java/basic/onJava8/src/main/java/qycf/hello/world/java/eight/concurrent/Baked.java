@@ -2,9 +2,10 @@ package qycf.hello.world.java.eight.concurrent;// concurrent/Baked.java
 // (c)2020 MindView LLC: see Copyright.txt
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
+import qycf.hello.world.java.eight.onjava.Nap;
+
 import java.util.concurrent.*;
 import java.util.stream.*;
-import onjava.Nap;
 
 public class Baked {
   static class Pan {}

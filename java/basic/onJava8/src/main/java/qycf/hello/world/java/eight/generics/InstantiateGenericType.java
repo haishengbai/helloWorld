@@ -28,8 +28,8 @@ class Employee1 {
 
 public class InstantiateGenericType {
   public static void main(String[] args) {
-    ClassAsFactory<Employee> fe =
-      new ClassAsFactory<>(Employee.class);
+    ClassAsFactory<Employee1> fe =
+      new ClassAsFactory<>(Employee1.class);
     System.out.println(fe.get());
     ClassAsFactory<Integer> fi =
       new ClassAsFactory<>(Integer.class);

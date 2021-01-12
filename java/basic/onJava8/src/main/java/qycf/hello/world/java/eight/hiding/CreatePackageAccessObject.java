@@ -3,7 +3,8 @@ package qycf.hello.world.java.eight.hiding;// hiding/CreatePackageAccessObject.j
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // {WillNotCompile}
-import hiding.packageaccess.*;
+
+import qycf.hello.world.java.eight.hiding.packageaccess.PublicConstructor;
 
 public class CreatePackageAccessObject {
   public static void main(String[] args) {

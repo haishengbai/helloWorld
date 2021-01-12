@@ -4,7 +4,8 @@ package qycf.hello.world.java.eight.arrays;// arrays/IceCreamFlavors.java
 // Visit http://OnJava8.com for more book information.
 // Returning arrays from methods
 import java.util.*;
-import static onjava.ArrayShow.*;
+
+import static qycf.hello.world.java.eight.onjava.ArrayShow.show;
 
 public class IceCreamFlavors {
   private static SplittableRandom rand =

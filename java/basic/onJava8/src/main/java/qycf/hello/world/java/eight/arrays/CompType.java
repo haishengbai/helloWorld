@@ -4,9 +4,8 @@ package qycf.hello.world.java.eight.arrays;// arrays/CompType.java
 // Visit http://OnJava8.com for more book information.
 // Implementing Comparable in a class
 import java.util.*;
-import java.util.function.*;
-import onjava.*;
-import static onjava.ArrayShow.*;
+
+import static qycf.hello.world.java.eight.onjava.ArrayShow.show;
 
 public class CompType implements Comparable<CompType> {
   int i;

@@ -3,8 +3,9 @@ package qycf.hello.world.java.eight.collectiontopics;// collectiontopics/ReadOnl
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Using the Collections.unmodifiable methods
+import qycf.hello.world.java.eight.onjava.Countries;
+
 import java.util.*;
-import onjava.*;
 
 public class ReadOnly {
   static Collection<String> data =

@@ -4,6 +4,10 @@
 // Visit http://OnJava8.com for more book information.
 package qycf.hello.world.java.eight.references.tests;
 import org.junit.jupiter.api.*;
+import qycf.hello.world.java.eight.references.DepthReading;
+import qycf.hello.world.java.eight.references.OceanReading;
+import qycf.hello.world.java.eight.references.TemperatureReading;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class DeepCopyTest {

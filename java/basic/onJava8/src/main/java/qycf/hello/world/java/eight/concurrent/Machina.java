@@ -2,7 +2,8 @@ package qycf.hello.world.java.eight.concurrent;// concurrent/Machina.java
 // (c)2020 MindView LLC: see Copyright.txt
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
-import onjava.Nap;
+
+import qycf.hello.world.java.eight.onjava.Nap;
 
 public class Machina {
   public enum State {

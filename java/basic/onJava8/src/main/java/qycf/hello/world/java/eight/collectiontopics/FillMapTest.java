@@ -2,10 +2,13 @@ package qycf.hello.world.java.eight.collectiontopics;// collectiontopics/FillMap
 // (c)2020 MindView LLC: see Copyright.txt
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
+import qycf.hello.world.java.eight.onjava.Count;
+import qycf.hello.world.java.eight.onjava.FillMap;
+import qycf.hello.world.java.eight.onjava.Rand;
+
 import java.util.*;
 import java.util.function.*;
 import java.util.stream.*;
-import onjava.*;
 
 public class FillMapTest {
   public static void main(String[] args) {

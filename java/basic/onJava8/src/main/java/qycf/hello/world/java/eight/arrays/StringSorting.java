@@ -3,9 +3,11 @@ package qycf.hello.world.java.eight.arrays;// arrays/StringSorting.java
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Sorting an array of Strings
+import qycf.hello.world.java.eight.onjava.Rand;
+
 import java.util.*;
-import onjava.*;
-import static onjava.ArrayShow.*;
+
+import static qycf.hello.world.java.eight.onjava.ArrayShow.show;
 
 public class StringSorting {
   public static void main(String[] args) {

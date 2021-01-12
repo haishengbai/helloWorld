@@ -2,11 +2,12 @@ package qycf.hello.world.java.eight.lowlevel;// lowlevel/PriorityBlockingQueueDe
 // (c)2020 MindView LLC: see Copyright.txt
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
+import qycf.hello.world.java.eight.onjava.Nap;
+
 import java.util.*;
 import java.util.stream.*;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.*;
-import onjava.Nap;
 
 class Prioritized implements Comparable<Prioritized>  {
   private static AtomicInteger counter =

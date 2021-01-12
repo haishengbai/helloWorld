@@ -5,8 +5,8 @@
 // {java onjava.atunit.AtUnit
 // build/classes/java/main/annotations/AtUnitExample3.class}
 package qycf.hello.world.java.eight.annotations;
-import onjava.atunit.*;
-import onjava.*;
+import qycf.hello.world.java.eight.onjava.atunit.Test;
+import qycf.hello.world.java.eight.onjava.atunit.TestObjectCreate;
 
 public class AtUnitExample3 {
   private int n;

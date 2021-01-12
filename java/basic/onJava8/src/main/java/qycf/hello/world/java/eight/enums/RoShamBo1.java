@@ -6,7 +6,8 @@
 // {java enums.RoShamBo1}
 package qycf.hello.world.java.eight.enums;
 import java.util.*;
-import static enums.Outcome.*;
+
+import static qycf.hello.world.java.eight.enums.Outcome.*;
 
 interface Item {
   Outcome compete(Item it);

@@ -4,11 +4,12 @@ package qycf.hello.world.java.eight.lowlevel;// lowlevel/SynchronizedComparison.
 // Visit http://OnJava8.com for more book information.
 // Synchronizing blocks instead of entire methods
 // speeds up access.
+import qycf.hello.world.java.eight.onjava.Nap;
+
 import java.util.*;
 import java.util.stream.*;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.*;
-import onjava.Nap;
 
 abstract class Guarded {
   AtomicLong callCount = new AtomicLong();

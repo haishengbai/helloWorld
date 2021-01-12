@@ -6,7 +6,8 @@
 // {java enums.EnumMaps}
 package qycf.hello.world.java.eight.enums;
 import java.util.*;
-import static enums.AlarmPoints.*;
+
+import static qycf.hello.world.java.eight.enums.AlarmPoints.*;
 
 interface Command { void action(); }
 

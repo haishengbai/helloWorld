@@ -6,9 +6,12 @@
 // build/classes/java/main/annotations/AtUnitExample4.class}
 // {VisuallyInspectOutput}
 package qycf.hello.world.java.eight.annotations;
+import qycf.hello.world.java.eight.onjava.ConvertTo;
+import qycf.hello.world.java.eight.onjava.atunit.Test;
+import qycf.hello.world.java.eight.onjava.atunit.TestObjectCreate;
+import qycf.hello.world.java.eight.onjava.atunit.TestProperty;
+
 import java.util.*;
-import onjava.atunit.*;
-import onjava.*;
 
 public class AtUnitExample4 {
   static String theory = "All brontosauruses " +

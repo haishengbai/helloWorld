@@ -6,8 +6,9 @@ package qycf.hello.world.java.eight.patterns;// patterns/PaperScissorsRock.java
 import java.util.*;
 import java.util.function.*;
 import java.util.stream.*;
-import onjava.*;
-import static onjava.Tuple.*;
+import qycf.hello.world.java.eight.onjava.Tuple2;
+
+import static qycf.hello.world.java.eight.onjava.Tuple.tuple;
 
 enum Outcome { WIN, LOSE, DRAW }
 

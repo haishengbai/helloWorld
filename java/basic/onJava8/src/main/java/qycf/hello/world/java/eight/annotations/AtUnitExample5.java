@@ -5,9 +5,12 @@
 // {java onjava.atunit.AtUnit
 // build/classes/java/main/annotations/AtUnitExample5.class}
 package qycf.hello.world.java.eight.annotations;
+import qycf.hello.world.java.eight.onjava.atunit.Test;
+import qycf.hello.world.java.eight.onjava.atunit.TestObjectCleanup;
+import qycf.hello.world.java.eight.onjava.atunit.TestObjectCreate;
+import qycf.hello.world.java.eight.onjava.atunit.TestProperty;
+
 import java.io.*;
-import onjava.atunit.*;
-import onjava.*;
 
 public class AtUnitExample5 {
   private String text;

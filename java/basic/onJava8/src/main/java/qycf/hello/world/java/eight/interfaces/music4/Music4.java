@@ -5,7 +5,8 @@
 // Abstract classes and methods
 // {java interfaces.music4.Music4}
 package qycf.hello.world.java.eight.interfaces.music4;
-import polymorphism.music.Note;
+
+import qycf.hello.world.java.eight.polymorphism.music.Note;
 
 abstract class Instrument {
   private int i; // Storage allocated for each

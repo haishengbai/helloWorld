@@ -3,8 +3,9 @@ package qycf.hello.world.java.eight.equalshashcode;// equalshashcode/SimpleHashM
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // A demonstration hashed Map
+import qycf.hello.world.java.eight.onjava.Countries;
+
 import java.util.*;
-import onjava.*;
 
 public
 class SimpleHashMap<K, V> extends AbstractMap<K, V> {

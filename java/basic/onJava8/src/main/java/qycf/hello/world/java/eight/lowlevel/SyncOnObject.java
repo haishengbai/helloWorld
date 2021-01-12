@@ -3,10 +3,11 @@ package qycf.hello.world.java.eight.lowlevel;// lowlevel/SyncOnObject.java
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Synchronizing on another object
+import qycf.hello.world.java.eight.onjava.Nap;
+
 import java.util.*;
 import java.util.stream.*;
 import java.util.concurrent.*;
-import onjava.Nap;
 
 class DualSynch {
   ConcurrentLinkedQueue<String> trace =

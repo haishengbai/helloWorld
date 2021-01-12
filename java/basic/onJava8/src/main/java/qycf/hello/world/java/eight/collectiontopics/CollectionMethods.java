@@ -4,7 +4,10 @@ package qycf.hello.world.java.eight.collectiontopics;// collectiontopics/Collect
 // Visit http://OnJava8.com for more book information.
 // Things you can do with all Collections
 import java.util.*;
-import static onjava.HTMLColors.*;
+
+import static qycf.hello.world.java.eight.onjava.HTMLColors.LIST;
+import static qycf.hello.world.java.eight.onjava.HTMLColors.border;
+import static qycf.hello.world.java.eight.onjava.HTMLColors.show;
 
 public class CollectionMethods {
   public static void main(String[] args) {

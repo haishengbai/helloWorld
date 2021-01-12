@@ -4,10 +4,9 @@
 // Visit http://OnJava8.com for more book information.
 // Cardboard for double dispatching
 package qycf.hello.world.java.eight.patterns.doubledispatch;
-import patterns.trash.*;
 import java.util.*;
 
-public class Cardboard extends patterns.trash.Cardboard
+public class Cardboard extends qycf.hello.world.java.eight.patterns.trash.Cardboard
     implements TypedBinMember {
   public Cardboard(double wt) { super(wt); }
   @Override

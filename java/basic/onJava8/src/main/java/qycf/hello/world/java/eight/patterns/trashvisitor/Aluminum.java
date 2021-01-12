@@ -4,9 +4,8 @@
 // Visit http://OnJava8.com for more book information.
 // Aluminum for the visitor pattern
 package qycf.hello.world.java.eight.patterns.trashvisitor;
-import patterns.trash.*;
 
-public class Aluminum extends patterns.trash.Aluminum
+public class Aluminum extends qycf.hello.world.java.eight.patterns.trash.Aluminum
     implements Visitable {
   public Aluminum(double wt) { super(wt); }
   @Override

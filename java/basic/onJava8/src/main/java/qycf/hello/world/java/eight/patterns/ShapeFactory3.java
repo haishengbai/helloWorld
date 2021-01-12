@@ -6,7 +6,10 @@ package qycf.hello.world.java.eight.patterns;// patterns/ShapeFactory3.java
 import java.util.*;
 import java.util.function.*;
 import java.util.stream.*;
-import patterns.shapes.*;
+import qycf.hello.world.java.eight.patterns.shapes.Circle;
+import qycf.hello.world.java.eight.patterns.shapes.Shape;
+import qycf.hello.world.java.eight.patterns.shapes.Square;
+import qycf.hello.world.java.eight.patterns.shapes.Triangle;
 
 interface PolymorphicFactory {
   Shape create();

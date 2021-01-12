@@ -3,8 +3,9 @@ package qycf.hello.world.java.eight.lowlevel;// lowlevel/MutexEvenProducer.java
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Preventing thread collisions with mutexes
+import qycf.hello.world.java.eight.onjava.Nap;
+
 import java.util.concurrent.locks.*;
-import onjava.Nap;
 
 public class MutexEvenProducer extends IntGenerator {
   private int currentEvenValue = 0;

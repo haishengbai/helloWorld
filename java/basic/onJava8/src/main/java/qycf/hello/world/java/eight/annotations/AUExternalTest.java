@@ -6,8 +6,8 @@
 // {java onjava.atunit.AtUnit
 // build/classes/java/main/annotations/AUExternalTest.class}
 package qycf.hello.world.java.eight.annotations;
-import onjava.atunit.*;
-import onjava.*;
+
+import qycf.hello.world.java.eight.onjava.atunit.Test;
 
 public class
 AUExternalTest extends AtUnitExample1 {

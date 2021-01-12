@@ -2,7 +2,15 @@ package qycf.hello.world.java.eight.collectiontopics;// collectiontopics/HTMLCol
 // (c)2020 MindView LLC: see Copyright.txt
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
-import static onjava.HTMLColors.*;
+
+import static qycf.hello.world.java.eight.onjava.HTMLColors.INVMAP;
+import static qycf.hello.world.java.eight.onjava.HTMLColors.LIST;
+import static qycf.hello.world.java.eight.onjava.HTMLColors.MAP;
+import static qycf.hello.world.java.eight.onjava.HTMLColors.RGBLIST;
+import static qycf.hello.world.java.eight.onjava.HTMLColors.border;
+import static qycf.hello.world.java.eight.onjava.HTMLColors.show;
+import static qycf.hello.world.java.eight.onjava.HTMLColors.showInv;
+import static qycf.hello.world.java.eight.onjava.HTMLColors.showrgb;
 
 public class HTMLColorTest {
   static final int DISPLAY_SIZE = 20;

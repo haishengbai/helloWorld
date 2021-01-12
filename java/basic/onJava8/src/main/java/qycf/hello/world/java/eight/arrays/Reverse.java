@@ -4,9 +4,8 @@ package qycf.hello.world.java.eight.arrays;// arrays/Reverse.java
 // Visit http://OnJava8.com for more book information.
 // The Collections.reverseOrder() Comparator
 import java.util.*;
-import onjava.*;
-import static onjava.ArrayShow.*;
-import static onjava.ArrayShow.show;
+
+import static qycf.hello.world.java.eight.onjava.ArrayShow.show;
 
 public class Reverse {
   public static void main(String[] args) {

@@ -3,8 +3,9 @@ package qycf.hello.world.java.eight.generics;// generics/BankTeller.java
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // A very simple bank teller simulation
+import qycf.hello.world.java.eight.onjava.Suppliers;
+
 import java.util.*;
-import onjava.*;
 
 class Customer {
   private static long counter = 1;

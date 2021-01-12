@@ -3,7 +3,7 @@ package qycf.hello.world.java.eight.concurrent;// concurrent/QuittableTask.java
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 import java.util.concurrent.atomic.AtomicBoolean;
-import onjava.Nap;
+import qycf.hello.world.java.eight.onjava.Nap;
 
 public class QuittableTask implements Runnable {
   final int id;

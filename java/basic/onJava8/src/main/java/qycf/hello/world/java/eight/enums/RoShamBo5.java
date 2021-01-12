@@ -6,7 +6,8 @@
 // {java enums.RoShamBo5}
 package qycf.hello.world.java.eight.enums;
 import java.util.*;
-import static enums.Outcome.*;
+
+import static qycf.hello.world.java.eight.enums.Outcome.*;
 
 enum RoShamBo5 implements Competitor<RoShamBo5> {
   PAPER, SCISSORS, ROCK;

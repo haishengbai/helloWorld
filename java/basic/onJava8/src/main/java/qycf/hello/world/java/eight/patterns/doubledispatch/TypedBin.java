@@ -4,7 +4,8 @@
 // Visit http://OnJava8.com for more book information.
 // A List that can grab the right type
 package qycf.hello.world.java.eight.patterns.doubledispatch;
-import patterns.trash.*;
+import qycf.hello.world.java.eight.patterns.trash.Trash;
+
 import java.util.*;
 
 public class TypedBin {

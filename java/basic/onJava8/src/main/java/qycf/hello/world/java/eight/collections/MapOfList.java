@@ -4,7 +4,14 @@
 // Visit http://OnJava8.com for more book information.
 // {java collections.MapOfList}
 package qycf.hello.world.java.eight.collections;
-import typeinfo.pets.*;
+import qycf.hello.world.java.eight.typeinfo.pets.Cat;
+import qycf.hello.world.java.eight.typeinfo.pets.Cymric;
+import qycf.hello.world.java.eight.typeinfo.pets.Dog;
+import qycf.hello.world.java.eight.typeinfo.pets.Mutt;
+import qycf.hello.world.java.eight.typeinfo.pets.Person;
+import qycf.hello.world.java.eight.typeinfo.pets.Pet;
+import qycf.hello.world.java.eight.typeinfo.pets.Pug;
+import qycf.hello.world.java.eight.typeinfo.pets.Rat;
 import java.util.*;
 
 public class MapOfList {

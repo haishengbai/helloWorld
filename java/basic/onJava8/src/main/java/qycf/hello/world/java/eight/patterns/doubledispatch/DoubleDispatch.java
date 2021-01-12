@@ -6,7 +6,9 @@
 // than one unknown type during a method call
 // {java patterns.doubledispatch.DoubleDispatch}
 package qycf.hello.world.java.eight.patterns.doubledispatch;
-import patterns.trash.*;
+import qycf.hello.world.java.eight.patterns.trash.ParseTrash;
+import qycf.hello.world.java.eight.patterns.trash.Trash;
+
 import java.util.*;
 
 class AluminumBin extends TypedBin {

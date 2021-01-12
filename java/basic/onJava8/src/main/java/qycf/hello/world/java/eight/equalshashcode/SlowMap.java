@@ -3,8 +3,9 @@ package qycf.hello.world.java.eight.equalshashcode;// equalshashcode/SlowMap.jav
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // A Map implemented with ArrayLists
+import qycf.hello.world.java.eight.onjava.Countries;
+
 import java.util.*;
-import onjava.*;
 
 public class SlowMap<K, V> extends AbstractMap<K, V> {
   private List<K> keys = new ArrayList<>();

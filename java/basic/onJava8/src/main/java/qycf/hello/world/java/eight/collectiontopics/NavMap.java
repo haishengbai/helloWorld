@@ -5,7 +5,11 @@ package qycf.hello.world.java.eight.collectiontopics;// collectiontopics/NavMap.
 // NavigableMap produces pieces of a Map
 import java.util.*;
 import java.util.concurrent.*;
-import static onjava.HTMLColors.*;
+
+import static qycf.hello.world.java.eight.onjava.HTMLColors.MAP;
+import static qycf.hello.world.java.eight.onjava.HTMLColors.border;
+import static qycf.hello.world.java.eight.onjava.HTMLColors.rgb;
+import static qycf.hello.world.java.eight.onjava.HTMLColors.show;
 
 public class NavMap {
   public static final

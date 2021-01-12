@@ -4,9 +4,8 @@
 // Visit http://OnJava8.com for more book information.
 // Cardboard for the visitor pattern
 package qycf.hello.world.java.eight.patterns.trashvisitor;
-import patterns.trash.*;
 
-public class Cardboard extends patterns.trash.Cardboard
+public class Cardboard extends qycf.hello.world.java.eight.patterns.trash.Cardboard
     implements Visitable {
   public Cardboard(double wt) { super(wt); }
   @Override

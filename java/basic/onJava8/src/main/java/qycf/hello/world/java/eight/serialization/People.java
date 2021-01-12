@@ -4,9 +4,12 @@ package qycf.hello.world.java.eight.serialization;// serialization/People.java
 // Visit http://OnJava8.com for more book information.
 // nu.xom.Node comes from http://www.xom.nu
 // {RunFirst: APerson}
+
 import nu.xom.*;
-import java.io.File;
-import java.util.*;
+
+import java.io.*;
+import java.util.ArrayList;
+
 
 public class People extends ArrayList<APerson> {
   public People(String fileName) throws Exception  {

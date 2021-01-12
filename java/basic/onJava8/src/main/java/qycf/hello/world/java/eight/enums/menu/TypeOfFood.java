@@ -4,7 +4,7 @@
 // Visit http://OnJava8.com for more book information.
 // {java enums.menu.TypeOfFood}
 package qycf.hello.world.java.eight.enums.menu;
-import static enums.menu.Food.*;
+import static qycf.hello.world.java.eight.enums.menu.Food.*;
 
 public class TypeOfFood {
   public static void main(String[] args) {

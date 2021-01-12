@@ -5,6 +5,6 @@ package qycf.hello.world.java.eight.interfaces;// interfaces/AttemptToUseBasic.j
 // {WillNotCompile}
 
 public class AttemptToUseBasic {
-  Basic b = new Basic();
+//  Basic b = new Basic();
   // error: Basic is abstract; cannot be instantiated
 }

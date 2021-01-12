@@ -30,7 +30,6 @@ abstract class Trash {
     System.out.println("Total value = " + val);
   }
 }
-
 class Aluminum extends Trash {
   static double val  = 1.67f;
   Aluminum(double wt) { super(wt); }

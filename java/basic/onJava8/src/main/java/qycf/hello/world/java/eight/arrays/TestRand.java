@@ -3,10 +3,12 @@ package qycf.hello.world.java.eight.arrays;// arrays/TestRand.java
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Test random generators
+import qycf.hello.world.java.eight.onjava.Rand;
+
 import java.util.*;
 import java.util.stream.*;
-import onjava.*;
-import static onjava.ArrayShow.*;
+
+import static qycf.hello.world.java.eight.onjava.ArrayShow.show;
 
 public class TestRand {
   static final int SZ = 5;

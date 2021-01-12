@@ -5,7 +5,7 @@
 // Enums using "tables" instead of multiple dispatch
 // {java enums.RoShamBo6}
 package qycf.hello.world.java.eight.enums;
-import static enums.Outcome.*;
+import static qycf.hello.world.java.eight.enums.Outcome.*;
 
 enum RoShamBo6 implements Competitor<RoShamBo6> {
   PAPER, SCISSORS, ROCK;

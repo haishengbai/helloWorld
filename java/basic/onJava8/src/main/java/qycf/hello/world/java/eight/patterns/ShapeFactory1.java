@@ -5,7 +5,13 @@ package qycf.hello.world.java.eight.patterns;// patterns/ShapeFactory1.java
 // A simple static factory method
 import java.util.*;
 import java.util.stream.*;
-import patterns.shapes.*;
+import qycf.hello.world.java.eight.patterns.shapes.BadShapeCreation;
+import qycf.hello.world.java.eight.patterns.shapes.Circle;
+import qycf.hello.world.java.eight.patterns.shapes.FactoryMethod;
+import qycf.hello.world.java.eight.patterns.shapes.FactoryTest;
+import qycf.hello.world.java.eight.patterns.shapes.Shape;
+import qycf.hello.world.java.eight.patterns.shapes.Square;
+import qycf.hello.world.java.eight.patterns.shapes.Triangle;
 
 public class ShapeFactory1 implements FactoryMethod {
   public Shape create(String type) {

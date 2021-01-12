@@ -7,7 +7,10 @@
 // the use of RTTI, is extensible.
 // {java patterns.dynatrash.DynaTrash}
 package qycf.hello.world.java.eight.patterns.dynatrash;
-import patterns.trash.*;
+import qycf.hello.world.java.eight.patterns.trash.Fillable;
+import qycf.hello.world.java.eight.patterns.trash.ParseTrash;
+import qycf.hello.world.java.eight.patterns.trash.Trash;
+
 import java.util.*;
 import java.util.stream.*;
 

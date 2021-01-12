@@ -4,7 +4,7 @@
 // Visit http://OnJava8.com for more book information.
 // Common tools for RoShamBo examples
 package qycf.hello.world.java.eight.enums;
-import onjava.*;
+import qycf.hello.world.java.eight.onjava.Enums;
 
 public class RoShamBo {
   public static <T extends Competitor<T>>

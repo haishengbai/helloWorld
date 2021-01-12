@@ -5,7 +5,6 @@ package qycf.hello.world.java.eight.standardio;// standardio/OSExecuteDemo.java
 // Demonstrates standard I/O redirection
 // javap -cp build/classes/java/main OSExecuteDemo
 // {ExcludeFromGradle}
-import onjava.*;
 
 public class OSExecuteDemo {}
 /* Output:

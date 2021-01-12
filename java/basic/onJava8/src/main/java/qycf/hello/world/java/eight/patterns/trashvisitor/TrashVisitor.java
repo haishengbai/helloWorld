@@ -4,7 +4,9 @@
 // Visit http://OnJava8.com for more book information.
 // {java patterns.trashvisitor.TrashVisitor}
 package qycf.hello.world.java.eight.patterns.trashvisitor;
-import patterns.trash.*;
+import qycf.hello.world.java.eight.patterns.trash.ParseTrash;
+import qycf.hello.world.java.eight.patterns.trash.Trash;
+
 import java.util.*;
 
 // Specific group of algorithms packaged

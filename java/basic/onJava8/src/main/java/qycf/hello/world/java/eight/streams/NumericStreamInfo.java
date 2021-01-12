@@ -3,7 +3,8 @@ package qycf.hello.world.java.eight.streams;// streams/NumericStreamInfo.java
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 import java.util.stream.*;
-import static streams.RandInts.*;
+
+import static qycf.hello.world.java.eight.streams.RandInts.rands;
 
 public class NumericStreamInfo {
   public static void main(String[] args) {

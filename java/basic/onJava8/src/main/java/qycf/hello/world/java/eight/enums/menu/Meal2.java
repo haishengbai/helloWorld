@@ -4,7 +4,8 @@
 // Visit http://OnJava8.com for more book information.
 // {java enums.menu.Meal2}
 package qycf.hello.world.java.eight.enums.menu;
-import onjava.*;
+
+import qycf.hello.world.java.eight.onjava.Enums;
 
 public enum Meal2 {
   APPETIZER(Food.Appetizer.class),

@@ -3,9 +3,10 @@ package qycf.hello.world.java.eight.enums;// enums/Reflection.java
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Analyzing enums using reflection
+import qycf.hello.world.java.eight.onjava.OSExecute;
+
 import java.lang.reflect.*;
 import java.util.*;
-import onjava.*;
 
 enum Explore { HERE, THERE }
 

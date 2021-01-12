@@ -4,7 +4,8 @@ package qycf.hello.world.java.eight.arrays;// arrays/FillingArrays.java
 // Visit http://OnJava8.com for more book information.
 // Using Arrays.fill()
 import java.util.*;
-import static onjava.ArrayShow.*;
+
+import static qycf.hello.world.java.eight.onjava.ArrayShow.show;
 
 public class FillingArrays {
   public static void main(String[] args) {

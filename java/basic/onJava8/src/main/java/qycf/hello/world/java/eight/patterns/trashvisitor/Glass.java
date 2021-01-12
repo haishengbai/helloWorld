@@ -4,9 +4,8 @@
 // Visit http://OnJava8.com for more book information.
 // Glass for the visitor pattern
 package qycf.hello.world.java.eight.patterns.trashvisitor;
-import patterns.trash.*;
 
-public class Glass extends patterns.trash.Glass
+public class Glass extends qycf.hello.world.java.eight.patterns.trash.Glass
     implements Visitable {
   public Glass(double wt) { super(wt); }
   @Override

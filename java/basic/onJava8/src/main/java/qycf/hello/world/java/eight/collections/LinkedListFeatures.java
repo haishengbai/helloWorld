@@ -2,7 +2,11 @@ package qycf.hello.world.java.eight.collections;// collections/LinkedListFeature
 // (c)2020 MindView LLC: see Copyright.txt
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
-import typeinfo.pets.*;
+import qycf.hello.world.java.eight.typeinfo.pets.Hamster;
+import qycf.hello.world.java.eight.typeinfo.pets.Pet;
+import qycf.hello.world.java.eight.typeinfo.pets.Pets;
+import qycf.hello.world.java.eight.typeinfo.pets.Rat;
+
 import java.util.*;
 
 public class LinkedListFeatures {

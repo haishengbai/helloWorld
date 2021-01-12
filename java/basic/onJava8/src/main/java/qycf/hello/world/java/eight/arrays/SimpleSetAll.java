@@ -3,7 +3,8 @@ package qycf.hello.world.java.eight.arrays;// arrays/SimpleSetAll.java
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 import java.util.*;
-import static onjava.ArrayShow.*;
+
+import static qycf.hello.world.java.eight.onjava.ArrayShow.show;
 
 class Bob {
   final int id;

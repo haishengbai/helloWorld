@@ -3,7 +3,8 @@ package qycf.hello.world.java.eight.concurrent;// concurrent/CompletableOperatio
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 import java.util.concurrent.*;
-import static onjava.CompletableUtilities.*;
+
+import static qycf.hello.world.java.eight.concurrent.CompletableUtilities.*;
 
 public class CompletableOperations {
   static CompletableFuture<Integer> cfi(int i) {

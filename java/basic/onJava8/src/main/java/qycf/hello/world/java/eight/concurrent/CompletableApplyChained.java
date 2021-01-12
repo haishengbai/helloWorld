@@ -2,8 +2,9 @@ package qycf.hello.world.java.eight.concurrent;// concurrent/CompletableApplyCha
 // (c)2020 MindView LLC: see Copyright.txt
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
+import qycf.hello.world.java.eight.onjava.Timer;
+
 import java.util.concurrent.*;
-import onjava.Timer;
 
 public class CompletableApplyChained {
   public static void main(String[] args) {

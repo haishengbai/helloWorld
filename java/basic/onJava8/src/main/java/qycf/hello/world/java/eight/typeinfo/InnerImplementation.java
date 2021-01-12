@@ -3,7 +3,8 @@ package qycf.hello.world.java.eight.typeinfo;// typeinfo/InnerImplementation.jav
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Private inner classes can't hide from reflection
-import typeinfo.interfacea.*;
+
+import qycf.hello.world.java.eight.typeinfo.interfacea.A;
 
 class InnerA {
   private static class C implements A {

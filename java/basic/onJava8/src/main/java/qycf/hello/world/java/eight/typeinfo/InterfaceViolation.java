@@ -3,7 +3,8 @@ package qycf.hello.world.java.eight.typeinfo;// typeinfo/InterfaceViolation.java
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Sneaking around an interface
-import typeinfo.interfacea.*;
+
+import qycf.hello.world.java.eight.typeinfo.interfacea.A;
 
 class B implements A {
   public void f() {}

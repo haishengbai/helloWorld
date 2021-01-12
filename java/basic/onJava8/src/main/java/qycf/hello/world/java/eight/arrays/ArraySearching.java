@@ -3,9 +3,11 @@ package qycf.hello.world.java.eight.arrays;// arrays/ArraySearching.java
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Using Arrays.binarySearch()
+import qycf.hello.world.java.eight.onjava.Rand;
+
 import java.util.*;
-import onjava.*;
-import static onjava.ArrayShow.*;
+
+import static qycf.hello.world.java.eight.onjava.ArrayShow.show;
 
 public class ArraySearching {
   public static void main(String[] args) {

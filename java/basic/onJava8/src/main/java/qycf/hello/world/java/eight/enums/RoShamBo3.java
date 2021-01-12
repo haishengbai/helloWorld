@@ -5,7 +5,8 @@
 // Using constant-specific methods
 // {java enums.RoShamBo3}
 package qycf.hello.world.java.eight.enums;
-import static enums.Outcome.*;
+
+import static qycf.hello.world.java.eight.enums.Outcome.*;
 
 public enum RoShamBo3 implements Competitor<RoShamBo3> {
   PAPER {

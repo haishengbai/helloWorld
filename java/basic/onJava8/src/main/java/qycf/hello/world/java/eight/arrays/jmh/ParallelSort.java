@@ -4,8 +4,8 @@
 // Visit http://OnJava8.com for more book information.
 package qycf.hello.world.java.eight.arrays.jmh;
 import java.util.*;
-import onjava.*;
 import org.openjdk.jmh.annotations.*;
+import qycf.hello.world.java.eight.onjava.Rand;
 
 @State(Scope.Thread)
 public class ParallelSort {

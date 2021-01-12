@@ -5,7 +5,8 @@
 // The StateMachine pattern and Template method
 // {java patterns.state.StateMachineDemo}
 package qycf.hello.world.java.eight.patterns.state;
-import onjava.Nap;
+
+import qycf.hello.world.java.eight.onjava.Nap;
 
 interface State {
   void run();

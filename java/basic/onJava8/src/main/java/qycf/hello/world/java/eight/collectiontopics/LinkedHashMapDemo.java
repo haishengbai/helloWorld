@@ -3,8 +3,9 @@ package qycf.hello.world.java.eight.collectiontopics;// collectiontopics/LinkedH
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // What you can do with a LinkedHashMap
+import qycf.hello.world.java.eight.onjava.CountMap;
+
 import java.util.*;
-import onjava.*;
 
 public class LinkedHashMapDemo {
   public static void main(String[] args) {

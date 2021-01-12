@@ -2,7 +2,12 @@ package qycf.hello.world.java.eight.collections;// collections/ListFeatures.java
 // (c)2020 MindView LLC: see Copyright.txt
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
-import typeinfo.pets.*;
+import qycf.hello.world.java.eight.typeinfo.pets.Cymric;
+import qycf.hello.world.java.eight.typeinfo.pets.Hamster;
+import qycf.hello.world.java.eight.typeinfo.pets.Mouse;
+import qycf.hello.world.java.eight.typeinfo.pets.Pet;
+import qycf.hello.world.java.eight.typeinfo.pets.Pets;
+
 import java.util.*;
 
 public class ListFeatures {

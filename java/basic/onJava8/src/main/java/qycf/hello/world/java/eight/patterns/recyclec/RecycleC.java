@@ -5,7 +5,13 @@
 // Adding more objects to the recycling problem
 // {java patterns.recyclec.RecycleC}
 package qycf.hello.world.java.eight.patterns.recyclec;
-import patterns.trash.*;
+import qycf.hello.world.java.eight.patterns.trash.Aluminum;
+import qycf.hello.world.java.eight.patterns.trash.Cardboard;
+import qycf.hello.world.java.eight.patterns.trash.Glass;
+import qycf.hello.world.java.eight.patterns.trash.Paper;
+import qycf.hello.world.java.eight.patterns.trash.ParseTrash;
+import qycf.hello.world.java.eight.patterns.trash.Trash;
+
 import java.util.*;
 
 // A List that admits only the right type:

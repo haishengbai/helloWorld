@@ -4,10 +4,9 @@
 // Visit http://OnJava8.com for more book information.
 // Paper for double dispatching
 package qycf.hello.world.java.eight.patterns.doubledispatch;
-import patterns.trash.*;
 import java.util.*;
 
-public class Paper extends patterns.trash.Paper
+public class Paper extends qycf.hello.world.java.eight.patterns.trash.Paper
     implements TypedBinMember {
   public Paper(double wt) { super(wt); }
   @Override

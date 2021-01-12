@@ -2,7 +2,8 @@ package qycf.hello.world.java.eight.hiding;// hiding/ChocolateChip2.java
 // (c)2020 MindView LLC: see Copyright.txt
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
-import hiding.cookie2.*;
+
+import qycf.hello.world.java.eight.hiding.cookie2.Cookie;
 
 public class ChocolateChip2 extends Cookie {
   public ChocolateChip2() {

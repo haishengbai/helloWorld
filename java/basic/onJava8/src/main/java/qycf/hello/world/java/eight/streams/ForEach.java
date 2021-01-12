@@ -4,7 +4,8 @@ package qycf.hello.world.java.eight.streams;// streams/ForEach.java
 // Visit http://OnJava8.com for more book information.
 import java.util.*;
 import java.util.stream.*;
-import static streams.RandInts.*;
+
+import static qycf.hello.world.java.eight.streams.RandInts.rands;
 
 public class ForEach {
   static final int SZ = 14;

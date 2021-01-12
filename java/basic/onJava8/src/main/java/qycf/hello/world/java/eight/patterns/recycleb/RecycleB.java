@@ -4,7 +4,12 @@
 // Visit http://OnJava8.com for more book information.
 // {java patterns.recycleb.RecycleB}
 package qycf.hello.world.java.eight.patterns.recycleb;
-import patterns.trash.*;
+import qycf.hello.world.java.eight.patterns.trash.Aluminum;
+import qycf.hello.world.java.eight.patterns.trash.Glass;
+import qycf.hello.world.java.eight.patterns.trash.Paper;
+import qycf.hello.world.java.eight.patterns.trash.ParseTrash;
+import qycf.hello.world.java.eight.patterns.trash.Trash;
+
 import java.util.*;
 
 public class RecycleB {

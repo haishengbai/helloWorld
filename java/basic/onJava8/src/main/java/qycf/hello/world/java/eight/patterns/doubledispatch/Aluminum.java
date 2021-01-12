@@ -4,10 +4,10 @@
 // Visit http://OnJava8.com for more book information.
 // Aluminum for double dispatching
 package qycf.hello.world.java.eight.patterns.doubledispatch;
-import patterns.trash.*;
 import java.util.*;
 
-public class Aluminum extends patterns.trash.Aluminum
+
+public class Aluminum extends qycf.hello.world.java.eight.patterns.trash.Aluminum
     implements TypedBinMember {
   public Aluminum(double wt) { super(wt); }
   @Override

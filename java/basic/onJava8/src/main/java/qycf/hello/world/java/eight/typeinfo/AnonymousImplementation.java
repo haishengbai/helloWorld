@@ -3,7 +3,8 @@ package qycf.hello.world.java.eight.typeinfo;// typeinfo/AnonymousImplementation
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Anonymous inner classes can't hide from reflection
-import typeinfo.interfacea.*;
+
+import qycf.hello.world.java.eight.typeinfo.interfacea.A;
 
 class AnonymousA {
   public static A makeA() {

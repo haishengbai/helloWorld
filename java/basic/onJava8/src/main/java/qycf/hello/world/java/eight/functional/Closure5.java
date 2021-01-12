@@ -10,6 +10,7 @@ public class Closure5 {
     int i = 0;
     i++;
     x++;
-    return () -> x + i;
+//    return () -> x + i;
+    return null;
   }
 }

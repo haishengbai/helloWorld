@@ -3,10 +3,11 @@ package qycf.hello.world.java.eight.typeinfo;// typeinfo/NullRobot.java
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Using a dynamic proxy to create an Optional
+import qycf.hello.world.java.eight.onjava.Null;
+
 import java.lang.reflect.*;
 import java.util.*;
 import java.util.stream.*;
-import onjava.*;
 
 class NullRobotProxyHandler
 implements InvocationHandler {

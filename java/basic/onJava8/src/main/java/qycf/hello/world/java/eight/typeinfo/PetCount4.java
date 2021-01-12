@@ -2,8 +2,10 @@ package qycf.hello.world.java.eight.typeinfo;// typeinfo/PetCount4.java
 // (c)2020 MindView LLC: see Copyright.txt
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
-import typeinfo.pets.*;
-import onjava.*;
+
+import qycf.hello.world.java.eight.onjava.TypeCounter;
+import qycf.hello.world.java.eight.typeinfo.pets.Pet;
+import qycf.hello.world.java.eight.typeinfo.pets.Pets;
 
 public class PetCount4 {
   public static void main(String[] args) {

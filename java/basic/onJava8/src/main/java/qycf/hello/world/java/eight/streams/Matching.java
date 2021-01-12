@@ -5,7 +5,6 @@ package qycf.hello.world.java.eight.streams;// streams/Matching.java
 // Demonstrates short-circuiting of *Match() operations
 import java.util.stream.*;
 import java.util.function.*;
-import static streams.RandInts.*;
 
 interface Matcher extends
   BiPredicate<Stream<Integer>, Predicate<Integer>> {}

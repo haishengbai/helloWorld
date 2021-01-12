@@ -5,7 +5,8 @@ package qycf.hello.world.java.eight.reuse;// reuse/Lisa.java
 // {WillNotCompile}
 
 class Lisa extends Homer {
-  @Override void doh(Milhouse m) {
+//  @Override
+  void doh(Milhouse m) {
     System.out.println("doh(Milhouse)");
   }
 }

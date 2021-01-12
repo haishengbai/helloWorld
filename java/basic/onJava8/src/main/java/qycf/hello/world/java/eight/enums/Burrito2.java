@@ -4,7 +4,9 @@
 // Visit http://OnJava8.com for more book information.
 // {java enums.Burrito2}
 package qycf.hello.world.java.eight.enums;
-import static enums.SpicinessEnum.*;
+import static qycf.hello.world.java.eight.enums.SpicinessEnum.HOT;
+import static qycf.hello.world.java.eight.enums.SpicinessEnum.MEDIUM;
+import static qycf.hello.world.java.eight.enums.SpicinessEnum.NOT;
 
 public class Burrito2 {
   SpicinessEnum degree;

@@ -2,9 +2,11 @@ package qycf.hello.world.java.eight.arrays;// arrays/ParallelPrefix2.java
 // (c)2020 MindView LLC: see Copyright.txt
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
+import qycf.hello.world.java.eight.onjava.Rand;
+
 import java.util.*;
-import onjava.*;
-import static onjava.ArrayShow.*;
+
+import static qycf.hello.world.java.eight.onjava.ArrayShow.show;
 
 public class ParallelPrefix2 {
   public static void main(String[] args) {

@@ -3,8 +3,9 @@ package qycf.hello.world.java.eight.typeinfo;// typeinfo/HiddenImplementation.ja
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Sneaking around package hiding
-import typeinfo.interfacea.*;
-import typeinfo.packageaccess.*;
+import qycf.hello.world.java.eight.typeinfo.interfacea.A;
+import qycf.hello.world.java.eight.typeinfo.packageaccess.HiddenC;
+
 import java.lang.reflect.*;
 
 public class HiddenImplementation {

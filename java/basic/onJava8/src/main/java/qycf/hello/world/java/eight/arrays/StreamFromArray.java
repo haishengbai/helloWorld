@@ -2,8 +2,10 @@ package qycf.hello.world.java.eight.arrays;// arrays/StreamFromArray.java
 // (c)2020 MindView LLC: see Copyright.txt
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
+import qycf.hello.world.java.eight.onjava.ConvertTo;
+import qycf.hello.world.java.eight.onjava.Rand;
+
 import java.util.*;
-import onjava.*;
 
 public class StreamFromArray {
   public static void main(String[] args) {

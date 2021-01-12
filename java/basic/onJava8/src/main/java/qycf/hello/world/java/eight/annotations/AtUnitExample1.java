@@ -5,8 +5,8 @@
 // {java onjava.atunit.AtUnit
 // build/classes/java/main/annotations/AtUnitExample1.class}
 package qycf.hello.world.java.eight.annotations;
-import onjava.atunit.*;
-import onjava.*;
+
+import qycf.hello.world.java.eight.onjava.atunit.Test;
 
 public class AtUnitExample1 {
   public String methodOne() {

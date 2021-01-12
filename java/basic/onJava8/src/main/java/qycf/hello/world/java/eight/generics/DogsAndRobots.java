@@ -3,7 +3,7 @@ package qycf.hello.world.java.eight.generics;// generics/DogsAndRobots.java
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // No (direct) latent typing in Java
-import typeinfo.pets.*;
+import qycf.hello.world.java.eight.typeinfo.pets.Dog;
 
 class PerformingDog extends Dog implements Performs {
   @Override

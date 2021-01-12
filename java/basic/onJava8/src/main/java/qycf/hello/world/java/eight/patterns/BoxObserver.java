@@ -5,12 +5,12 @@ package qycf.hello.world.java.eight.patterns;// patterns/BoxObserver.java
 // Demonstration of Observer pattern using
 // Java's built-in observer classes.
 // {ExcludeFromGradle} // Won't work under WSL2
+import qycf.hello.world.java.eight.onjava.MouseClick;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
-import onjava.*;
-import onjava.MouseClick;
 
 // You must inherit a new type of Observable:
 @SuppressWarnings("deprecation")

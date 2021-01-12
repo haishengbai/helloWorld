@@ -2,7 +2,9 @@ package qycf.hello.world.java.eight.lowlevel;// lowlevel/TestAbort.java
 // (c)2020 MindView LLC: see Copyright.txt
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
-import onjava.*;
+
+import qycf.hello.world.java.eight.onjava.Nap;
+import qycf.hello.world.java.eight.onjava.TimedAbort;
 
 public class TestAbort {
   public static void main(String[] args) {

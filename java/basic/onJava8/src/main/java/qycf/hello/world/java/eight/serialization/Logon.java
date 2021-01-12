@@ -3,10 +3,11 @@ package qycf.hello.world.java.eight.serialization;// serialization/Logon.java
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Demonstrates the "transient" keyword
+import qycf.hello.world.java.eight.onjava.Nap;
+
 import java.util.concurrent.*;
 import java.io.*;
 import java.util.*;
-import onjava.Nap;
 
 public class Logon implements Serializable {
   private Date date = new Date();
