@@ -7,6 +7,11 @@ public class ForInString {
   public static void main(String[] args) {
     for(char c : "An African Swallow".toCharArray())
       System.out.print(c + " ");
+
+    int i = 1;
+    for ( ; i< 3 ;i++ ) {
+      System.out.println("aa");
+    }
   }
 }
 /* Output:
