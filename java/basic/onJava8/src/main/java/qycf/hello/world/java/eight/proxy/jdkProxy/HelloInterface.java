@@ -8,4 +8,7 @@ public interface HelloInterface {
 
     void sayHello();
 
+    void sayGoodBye();
+
+    int count();
 }

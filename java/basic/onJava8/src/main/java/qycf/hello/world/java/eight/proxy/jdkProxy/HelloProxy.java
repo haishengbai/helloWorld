@@ -20,6 +20,6 @@ public class HelloProxy implements InvocationHandler {
         System.out.println("before invoke : " + method.getName());
         method.invoke(subject, args);
         System.out.println("after invoke : " + method.getName());
-        return null;
+        return 0;
     }
 }

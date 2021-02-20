@@ -9,4 +9,14 @@ public class Hello implements HelloInterface {
     public void sayHello() {
         System.out.println("Hello Proxy");
     }
+
+    @Override
+    public void sayGoodBye() {
+        System.out.println("GoodBye Proxy");
+    }
+
+    @Override
+    public int count() {
+        return 0;
+    }
 }

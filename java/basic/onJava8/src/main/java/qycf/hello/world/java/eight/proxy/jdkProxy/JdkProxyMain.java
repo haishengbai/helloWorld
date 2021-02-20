@@ -12,10 +12,14 @@ public class JdkProxyMain {
     public static void main(String[] args) {
 
         Hello hello = new Hello();
-        InvocationHandler invocationHandler = new HelloProxy(hello);
+        InvocationHandler helloProxy = new HelloProxy(hello);
 
-        HelloInterface helloInterface = (HelloInterface) Proxy.newProxyInstance(invocationHandler.getClass().getClassLoader(),
-                hello.getClass().getInterfaces(), invocationHandler);
+        HelloInterface helloInterface = (HelloInterface) Proxy.newProxyInstance(helloProxy.getClass().getClassLoader(),
+                hello.getClass().getInterfaces(), helloProxy);
         helloInterface.sayHello();
+
+        helloInterface.sayGoodBye();
+
+        helloInterface.count();
     }
 }
