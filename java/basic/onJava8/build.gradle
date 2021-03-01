@@ -19,6 +19,7 @@ repositories {
 }
 
 dependencies {
+    implementation group: 'cglib', name: 'cglib', version: '3.3.0'
     compile group: 'org.openjdk.jmh', name: 'jmh-core', version: '1.26'
     compile group: 'com.google.guava', name: 'guava', version: '30.0-jre'
     implementation 'org.springframework.boot:spring-boot-starter-web'
